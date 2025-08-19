@@ -276,7 +276,7 @@ def mark_attendance_page():
         st.success("Done!")
         
 # ------------------- Main -------------------- #
-st.set_page_config(page_title="Face Attendance System", layout="wide")
+st.set_page_config(page_title="Face Attendance Management System", layout="wide")
 
 if 'admin_logged_in' not in st.session_state:
     st.session_state['admin_logged_in'] = False
